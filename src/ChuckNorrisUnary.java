@@ -9,6 +9,8 @@ public class ChuckNorrisUnary {
         System.out.println("Input string:");
         System.out.println(message);
 
+        String result = "";
+
         // convert data into binary format
         StringBuilder binary = new StringBuilder();
         for (char c : message) {
